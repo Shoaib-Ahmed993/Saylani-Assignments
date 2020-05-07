@@ -1,0 +1,87 @@
+.header{
+  background-color: #316DC3;
+}
+.whatsapp{
+  width: 22px;
+}
+.nav{
+  margin-left: 40px;
+  margin-top: 5px;
+}
+.nav-item :hover{
+  background-color: rgba(34, 90, 168, 0.918);
+}
+.para{
+  color: white;
+  margin-left: 120px;
+  margin-top: 14px;
+  text-align: center;
+}
+.para ::selection{
+  background-color: #000;
+}
+.donate li{
+  list-style: none;
+  margin-top: 13px;
+  margin-left: 50px;
+}
+.buttons{
+  color: #487c08;
+}
+.navbar{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.carousel-inner{
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  visibility: inherit;
+  position: inherit;
+}
+.news{
+  margin-top: 13px;
+}
+h2{
+  color: #316DC3;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.text-theme{
+  color: #427900 !important;
+  font-weight: 600 !important;
+}
+section > .container, section > .container-fluid {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.parallex{
+ background-color:  rgba(36, 79, 242, 0.8) !important;
+ background-image: url("");
+ background-position: 50% 70px;
+}
+.gallery{
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.scrollToTop {
+  background: rgba(0, 0, 0, 0.1);
+  bottom: 15px;
+  display: none;
+  height: 50px;
+  padding: 2px;
+  position: fixed;
+  right: 15px;
+  text-align: center;
+  text-decoration: none;
+  width: 50px;
+  z-index: 99999;
+}
+.scrollToTop i {
+  color: #fff;
+  font-size: 40px;
+}
